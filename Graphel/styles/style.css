@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    background-color: #292828;
+    height: 130px;
+    font-size: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 10px solid #1193d4;
+    
+}
+
+.blanco{
+    margin: 0 6px 0 180px;   
+    color: #fff;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+
+}
+.items_menu{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.azul{
+    color: #1193d4;
+    font-size: 20px;
+}
+.azul2{
+    color: #1193d4;
+    font-size: 15px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../assets/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 50vh;
+}
+header h1, header p{
+    margin: 0;
+    color: #fff;
+    text-align: justify;
+}
+h1{
+    font-size: 60px;
+}
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #292828;
+    height: 100px;
+    width: 100%;
+}
+.menu2  p{
+   
+    color: #fff;
+    font-size: 25px;
+}
+.menu2 div input{
+    color: #292828;
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+.menu div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #eb5e00;
+}
+section{
+     display: flex;
+     margin: 100px;
+     justify-content: space-around;
+    
+}
+section img{
+    width: 100px;
+    height: 100px;
+    
+}
+.items_section{
+    width: 300px;
+    text-align: center;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: #1193d4;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+main{
+    display: flex;
+    align-content: center;
+}
+.nosotros{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin: 0 80px;
+    
+}
+.gris{
+    background-color: #35424a;
+    text-align: justify;
+    color: #fff;
+    padding: 10px;
+}
+.nosotros img{
+    width: 100%;
+    margin: 10px 0;
+    height: 350px;
+    margin:  10px  0 30px 0;
+}
+aside{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    height: 20vh;
+    margin: 20px 0;
+    background-color: #35424a;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 10px 40px ;
+    
+}
+.servicios{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin: 0 80px;
+}
+.servicios_items{
+    background-color: #d4d5d6;
+    margin: 1px;
+    padding: 20px;
+}
+.servicios_items p{
+    color: #35424a;
+
+}
+.contacto{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin: 0 80px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 5vh;
+    margin: 0 340px;
+    
+}
+.form input{
+    width: 700px;
+    height: 30px;
+}
+.form textarea{
+    width: 700px;
+    height: 100px;
+}
+.form button{
+    background-color: #eb5e00;
+    width: 700px;
+}
+.aside2{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    height: 20vh;
+    margin: 20px 0 0 0;
+    background-color: #35424a;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 10px 40px ;
+}
+.aside2 p{
+    margin-bottom: 90px;
+    height: 0;
+    text-align: center;
+}
+.aside2 img{
+    margin: 0;
+    width: 60vh;
+    height: 32vh;
+}
